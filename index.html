@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wassim Maaoui" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="settings">
+        <h1>calc</h1>
+        <div class="theme-controller">
+          <div class="themes">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="themes-container">
+            <h2>theme</h2>
+            <div class="themes-selector">
+              <div class="selector first"></div>
+              <div id="theme-1"></div>
+              <div id="theme-2"></div>
+              <div id="theme-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen">
+        <input readonly type="text" id="eq" class="equation" value="" />
+        <p id="value">0</p>
+      </section>
+      <section class="keys-container">
+        <div id="key-zero" class="key">0</div>
+        <div id="key-one" class="key">1</div>
+        <div id="key-two" class="key">2</div>
+        <div id="key-three" class="key">3</div>
+        <div id="key-four" class="key">4</div>
+        <div id="key-five" class="key">5</div>
+        <div id="key-six" class="key">6</div>
+        <div id="key-seven" class="key">7</div>
+        <div id="key-eight" class="key">8</div>
+        <div id="key-nine" class="key">9</div>
+        <div id="key-add" class="key">+</div>
+        <div id="key-subtract" class="key">-</div>
+        <div id="key-multiply" class="key">x</div>
+        <div id="key-divide" class="key">/</div>
+        <div id="key-decimal" class="key">.</div>
+        <div id="key-delete" class="key">del</div>
+        <div id="key-reset" class="special-key">reset</div>
+        <div id="key-equal" class="special-key">=</div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
